@@ -1,0 +1,262 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+ - Blog Item
+ - Blog Post
+ - Share
+ - Leave a Reply
+
+- Project:	Seven Store - Ecommerce HTML/CSS Template
+- Version:	1.1
+- Author:  Andrey Sokoltsov
+- Profile:	http://themeforest.net/user/andreysokoltsov
+
+-------------------------------------------------------------------*/
+
+.blog{
+	padding: 106px 100px 50px;
+}
+
+
+/* Blog Item */
+.blog-item{
+	padding-bottom: 100px;
+}
+.blog-item_img{
+	float: left;
+	position: relative;
+	width: 48%;
+}
+.blog-item_img img{
+	float: left;
+	max-width: 100%;
+}
+.blog-item .blog-preview_posted{
+	bottom: auto;
+	left: auto;
+	right: 6%;
+	top: -6%;
+	z-index: 1;
+}
+.blog-item_desc{
+	float: right;
+	width: 48%;
+}
+.blog-item_header{
+	float: left;
+	padding: 12px 0 0;
+	width: 100%;
+}
+.blog-item_posted{
+	color: #bababa;
+	float: left;
+	font-size: 11px;
+	margin-right: 9px;
+}
+.blog-item_posted_name{
+	color: #333;
+	float: left;
+	font-size: 11px;
+	text-decoration: none;
+}
+.blog-item_posted_name:hover{
+	text-decoration: none;
+}
+.blog-item_posted_sepparator{
+	background-color: #ccc;
+	float: left;
+	height: 15px;
+	margin: -1px 19px 0;
+	width: 2px;
+}
+ul.blog-item-cats{
+	float: left;
+}
+ul.blog-item-cats li{
+	float: left;
+	margin-right: 5px;
+}
+ul.blog-item-cats li a{
+	color: #333;
+	font-size: 11px;
+	text-decoration: none;
+}
+.blog-item_body{
+	float: left;
+	padding-top: 20px;
+	width: 100%;
+}
+.blog-item_text{
+	border-top: 1px solid #ececec;
+	float: left;
+	font-size: 13px;
+	line-height: 24px;
+	padding-bottom: 50px;
+	padding-top: 30px;
+	width: 100%;
+}
+.blog-item_body h3{
+	font-size: 21px;
+	line-height: 26px;
+	padding-bottom: 32px;
+}
+.blog-item_body .button-border{
+	border-color: #ececec;
+	margin: 0;
+}
+.blog .pagination-container{
+	border-top: 1px solid #ececec;
+	padding-bottom: 100px;
+	padding-top: 50px;
+}
+.blog-additional .blog-item:nth-child(2n) .blog-item_img{
+	float: right;
+}
+.blog-additional .blog-item:nth-child(2n) .blog-item_desc{
+	float: left;
+}
+.blog-additional .blog-item .blog-preview_posted{
+	bottom: 0;
+	left: -20px;
+	margin: auto;
+	right: auto;
+	top: 0;
+}
+.blog-additional .blog-item:nth-child(2n) .blog-preview_posted{
+	right: -20px;
+	left: auto;
+}
+
+/* Blog Post */
+.blog-post_img{
+	position: relative;
+	padding-bottom: 38px;
+}
+.blog-post_img .blog-preview_posted{
+	bottom: auto;
+	left: 0;
+	margin: auto;
+	right: 0;
+	top: -25px;
+	z-index: 2;
+}
+.blog-post_img img{
+	width: 100%;
+}
+.blog-post .blog-item_desc{
+	float: left;
+	width: 100%;
+}
+.blog-post .blog-item_body{
+	padding-top: 30px;
+}
+.blog-post .blog-item_body p{
+	margin: 0 0 25px;
+}
+.important-text{
+	background-color: #f2f2f2;
+	border-style: solid;
+	border-width: 0 0 0 3px;
+	color: #333;
+	float: left;
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 30px;
+	margin: 33px 5% 58px;
+	padding: 38px 25px 42px 47px;
+	width: 90%;
+}
+
+/* Share */
+.blog-item_share{
+	border-bottom: 1px solid #ececec;
+	float: left;
+	padding-bottom: 53px;
+	width: 100%;
+}
+.blog-item_share h4{
+	font-size: 12px;
+	padding-bottom: 32px;
+}
+ul.share-list li{
+	float: left;
+}
+ul.share-list li a{
+	border: 1px solid #ececec;
+	color: #888;
+	float: left;
+	font-size: 20px;
+	height: 50px;
+	line-height: 52px;
+	text-align: center;
+	width: 50px;
+	text-decoration: none;
+}
+ul.share-tags-list{
+	padding-top: 36px;
+}
+ul.share-tags-list li{
+	color: #bababa;
+	float: left;
+	font-size: 11px;
+	margin-left: 8px;
+}
+ul.share-tags-list li.line-sepparator{
+	background-color: #ccc;
+	height: 15px;
+	margin: -1px 9px 0 15px;
+	width: 2px;
+}
+ul.share-tags-list li a{
+	color: #333;
+	float: left;
+	margin-right: 3px;
+	text-decoration: none;
+}
+ul.share-tags-list li span{
+	color: #333;
+	float: left;
+}
+
+
+/* Leave a Reply */
+.reply{
+	float: left;
+	padding-bottom: 100px;
+	padding-top: 64px;
+	width: 80%;
+}
+.reply h3{
+	font-size: 22px;
+	padding-bottom: 37px;
+}
+.reply-form{
+	float: left;
+	width: 100%;
+}
+.reply-form .form-group{
+	float: left;
+	padding-bottom: 20px;
+}
+.reply-form .form-group.half-wigth{
+	width: 48%;
+}
+.reply-form .form-group.full-width{
+	width: 100%;
+}
+.reply-field{
+	background-color: #fff;
+	border: 2px solid #ececec;
+	font-size: 11px;
+	padding: 13px 15px;
+	width: 100%;
+}
+textarea.reply-field{
+	min-height: 150px;
+}
+.reply-form .button-border{
+	background-color: #fff;
+	border: 2px solid #ececec;
+	margin: 15px 0 0;
+	padding: 14px 21px 13px;
+}

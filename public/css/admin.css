@@ -1,0 +1,35 @@
+
+
+/*.dropdown-menu*/
+/*{*/
+    /*min-width: 98px !important;*/
+/*}*/
+
+.dropdown-menu a
+{
+   border: none;
+}
+
+.hover-red:hover
+{
+    color:red !important;
+}
+
+.dropdown-menu .edit_btn:hover
+{
+    color:#00a8ff !important;
+}
+
+.feature_img {
+    position: absolute;
+    top: -5px;
+    left: -15px;
+}
+
+
+
+.site-header .site-logo
+{
+    padding-right: 23px !important;
+    padding-left: 5px !important;
+}

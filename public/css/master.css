@@ -1,0 +1,48 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:	Seven Store - Ecommerce HTML/CSS Template
+Version:	1.1
+Author:	    Andrey Sokoltsov
+Profile:	http://themeforest.net/user/andreysokoltsov
+-------------------------------------------------------------------*/
+
+/* MAIN CSS */
+@import url('bootstrap.min.css');
+@import url('jquery-ui.min.css');
+@import url('theme.css');
+@import url('category.css');
+@import url('products.css');
+@import url('blog.css');
+@import url('responsive.css');
+@import url('animate.css');
+@import url('hover-min.css');
+@import url('color.css');
+@import url('custom.css');
+
+
+
+/* FONTS*/
+@import url(//fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic);
+@import url(//fonts.googleapis.com/css?family=Roboto+Slab:400,300,700);
+@import url('../fonts/font-awesome/css/font-awesome.min.css');
+@import url('../fonts/elegant-icon-font/style.css');
+@import url('../fonts/simple-line-icons-webfont/simple-line-icons.css');
+
+
+/* PLUGIN CSS */
+@import url('../plugins/loader/css/loader.css');
+@import url('../plugins/owl-carousel/owl.carousel.css');
+@import url('../plugins/owl-carousel/owl.theme.css');
+@import url('../plugins/owl-carousel/owl.transitions.css');
+@import url('../plugins/bxslider/jquery.bxslider.css');
+@import url('../plugins/hover-effect-ideas/css/set1.css');
+@import url('../plugins/hover-effect-ideas/css/set2.css');
+@import url('../plugins/isotope/isotope.css');
+
+
+
+
+
+

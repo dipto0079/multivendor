@@ -1,0 +1,114 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+ - Default colors
+
+- Project:	Seven Store - Ecommerce HTML/CSS Template
+- Version:	1.1
+- Author:  Andrey Sokoltsov
+- Profile:	http://themeforest.net/user/andreysokoltsov
+
+-------------------------------------------------------------------*/
+.logo{
+	/*background-image: url('../media/logo/header1/logo-orange.jpg');*/
+}
+.footer-top_logo{
+	background-image: url('../media/logo/header2/logo-orange.png');
+}
+.smallLogo{
+	background-image: url('../media/logo/small/logo-orange.jpg');
+}
+.home-construction-v3 .logo{
+	background-image: url('../media/logo/header2/logo-orange.png');
+}
+.home-construction-v5 .logo{
+	background-image: url('../media/logo/header3/logo-orange.jpg');
+}
+.home-construction-v3 .ip-loader .logo,
+.home-construction-v5 .ip-loader .logo{
+	background-image: url('../media/logo/header1/logo-orange.jpg');
+}
+.before-bg:before,
+.hover-focus-bg:focus,
+.hover-focus-bg:hover,
+.category-images li.grid figure.effect-bubba:hover h2,
+#filter li a.current,
+.blog-preview_image:hover .blog-preview_posted,
+.blog-preview-small_link:hover .blog-preview_posted,
+.tabs-panel .nav-tabs > li.active > a,
+.btn-primary,
+.btn-primary:focus,
+.btn-primary:hover,
+.customBgColor{
+	background-color: #ff8300;
+}
+
+.navbar-main > li.active > a,
+.navbar-main > li a:hover,
+.navbar-main > li.open > a,
+.navbar-main .dropdown-menu > li > a:focus,
+.navbar-main .dropdown-menu > li > a:hover,
+.owl-main-slider.owl-carousel .owl-controls .owl-buttons div:hover i,
+.header-v2 .nav-top > li > a i,
+ul.footer-nav li a:hover,
+.owl-product-slider.owl-theme .owl-controls .owl-buttons div:focus,
+.owl-product-slider.owl-theme .owl-controls .owl-buttons div:hover,
+.vertical-slider .bx-wrapper .bx-controls-direction a:focus,
+.vertical-slider .bx-wrapper .bx-controls-direction a:hover,
+.comments-slider .bx-wrapper .bx-controls-direction a:focus,
+.comments-slider .bx-wrapper .bx-controls-direction a:hover,
+.navbar-main .dropdown-menu > .active > a, 
+.navbar-main .dropdown-menu > .active > a:focus, 
+.navbar-main .dropdown-menu > .active > a:hover,
+.hover-focus-color:focus,
+.hover-focus-color:hover,
+.starSeparator,
+a.customColor:focus,
+a.customColor:hover,
+.customColor{
+	color: #ff8300 !important;
+}
+.owl-main-slider.owl-carousel .owl-controls .owl-buttons div:hover,
+.btn-white.hvr-shutter-out-horizontal:hover,
+.btn-black.hvr-shutter-out-horizontal:hover,
+#filter li a:hover,
+#filter li a.current,
+.blog-preview_btn.hvr-rectangle-out:hover,
+.blog-preview-small_more.hvr-rectangle-out:hover,
+.main-slider_buttons .hvr-rectangle-out:hover,
+.tabs-panel .nav-tabs > li.active > a,
+.blog-preview_posted,
+.hover-focus-border:focus,
+.hover-focus-border:hover,
+.customBorderColor{
+	border-color: #ff8300 !important;
+}
+a.color-main:focus,
+a.color-main:hover,
+.color-main{
+	color: #fff;
+}
+a.color-additional:focus,
+a.color-additional:hover,
+.color-additional{
+	color: #ccc;
+}
+a.color-third:focus,
+a.color-third:hover,
+.color-third{
+	color: #666;
+}
+.nav-top .dropdown-menu > li > a:focus,
+.nav-top .dropdown-menu > li > a:hover{
+	color: #ff8300;
+}
+.product-search_btn.hvr-border-fade:active,
+.product-search_btn.hvr-border-fade:focus,
+.product-search_btn.hvr-border-fade:hover{
+	box-shadow:inset 0 0 0 4px #ff8300,0 0 1px rgba(0,0,0,0);
+	-moz-box-shadow:inset 0 0 0 4px #ff8300,0 0 1px rgba(0,0,0,0);
+	-webkit-box-shadow:inset 0 0 0 4px #ff8300,0 0 1px rgba(0,0,0,0);
+}
+ul.product-item_info li a:before{
+	border-top: 6px solid #ff8300;
+}

@@ -1,0 +1,459 @@
+/************************* Start CSS *********************/
+
+.container_12 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1008px;
+}
+
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+    display: inline;
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.container_12 .grid_1 {
+    width: 60px;
+}
+
+.container_12 .grid_2 {
+    width: 144px;
+}
+
+.container_12 .grid_3 {
+    width: 228px;
+}
+
+.container_12 .grid_4 {
+    width: 312px;
+}
+
+.container_12 .grid_5 {
+    width: 396px;
+}
+
+.container_12 .grid_6 {
+    width: 480px;
+}
+
+.container_12 .grid_7 {
+    width: 564px;
+}
+
+.container_12 .grid_8 {
+    width: 648px;
+}
+
+.container_12 .grid_9 {
+    width: 732px;
+}
+
+.container_12 .grid_10 {
+    width: 816px;
+}
+
+.container_12 .grid_11 {
+    width: 900px;
+}
+
+.container_12 .grid_12 {
+    width: 856px;
+    position: relative;
+}
+
+/*** Grid < 1007 ***/
+@media only screen and (min-width: 748px) and (max-width: 1007px) {
+    .container_12 {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .grid_1,
+    .grid_2,
+    .grid_3,
+    .grid_4,
+    .grid_5,
+    .grid_6,
+    .grid_7,
+    .grid_8,
+    .grid_9,
+    .grid_10,
+    .grid_11,
+    .grid_12 {
+        display: inline;
+        float: left;
+        margin-left: 1.3%;
+        margin-right: 1.3%;
+    }
+
+    .container_12 .grid_1 {
+        width: 5.73%;
+    }
+
+    .container_12 .grid_2 {
+        width: 14.06%;
+    }
+
+    .container_12 .grid_3 {
+        width: 22.39%;
+    }
+
+    .container_12 .grid_4 {
+        width: 30.72%;
+    }
+
+    .container_12 .grid_5 {
+        width: 39.06%;
+    }
+
+    .container_12 .grid_6 {
+        width: 47.4%;
+    }
+
+    .container_12 .grid_7 {
+        width: 55.72%;
+    }
+
+    .container_12 .grid_8 {
+        width: 64.06%;
+    }
+
+    .container_12 .grid_9 {
+        width: 72.35%;
+    }
+
+    .container_12 .grid_10 {
+        width: 80.72%;
+    }
+
+    .container_12 .grid_11 {
+        width: 89.06%;
+    }
+
+    .container_12 .grid_12 {
+        width: 97.4%;
+        position: relative;
+    }
+}
+
+/*** Grid < 768 ***/
+@media only screen and (max-width: 747px) {
+
+    .container_12 {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .grid_1,
+    .grid_2,
+    .grid_3,
+    .grid_4,
+    .grid_5,
+    .grid_6,
+    .grid_7,
+    .grid_8,
+    .grid_9,
+    .grid_10,
+    .grid_11,
+    .grid_12 {
+        display: inline;
+        float: left;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .container_12 .grid_1 {
+        width: 60px;
+    }
+
+    .container_12 .grid_2 {
+        width: 144px;
+    }
+
+    .container_12 .grid_3 {
+        width: 228px;
+    }
+
+    .container_12 .grid_4 {
+        width: 312px;
+    }
+
+    .container_12 .grid_12 {
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        margin: 0;
+        padding: 0 10px;
+        width: 100%;
+        position: relative;
+    }
+}
+
+#slider .slide {
+    float: left;
+    position: relative;
+}
+
+#slider .slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.slid_text {
+    position: absolute;
+    top: 65px;
+    left: 335px;
+    color: #131313;
+}
+
+.slid_text .slid_title {
+    line-height: 1.5;
+    margin: 0 0 18px 0;
+    padding: 5px 0;
+}
+
+.slid_text .slid_title span {
+    padding: 5px 10px;
+    font-size: 30px;
+    background: #fff;
+    opacity: 0.7;
+    color: #222;
+}
+
+.slid_text p {
+    padding: 5px 0;
+    margin: 0 0 2px 0;
+}
+
+.slid_text p span {
+    padding: 5px 10px;
+    font-size: 16px;
+    background: #fff;
+    opacity: 0.7;
+    color: #222;
+}
+
+.slidprev,
+.slidnext {
+    position: absolute;
+    background: #fff;
+    height: 42px;
+    width: 42px;
+    cursor: pointer;
+    z-index: 9;
+    margin: 220px 0 0 0;
+    text-align: center;
+    font: bold 15px/42px Arial, Verdana, serif;
+    opacity: 0.85;
+    color: #444;
+}
+
+.slidprev span,
+.slidnext span {
+    display: block;
+    margin: 13px 0 0 16px;
+    width: 10px;
+    height: 15px;
+    background: url(../image/bg_arows.png) no-repeat left top;
+    text-indent: -9999px;
+}
+
+.slidnext span {
+    background: url(../image/bg_arows.png) no-repeat right top;
+}
+
+.slidprev:hover span {
+    background: url(../image/bg_arows.png) no-repeat left bottom;
+}
+
+.slidnext:hover span {
+    background: url(../image/bg_arows.png) no-repeat right bottom;
+}
+
+.slidprev:hover,
+.slidnext:hover {
+    background: #444;
+    color: #fff;
+}
+
+.slidnext {
+    margin: 220px 0 0 0;
+    right: 0;
+}
+
+#myController {
+    margin: -40px 0 0 0;
+    position: absolute;
+    right: 20px;
+}
+
+#myController a {
+    width: 20px;
+    height: 20px;
+    margin: 0 0 0 5px;
+    background: #fff;
+    float: left;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    behavior: url(PIE.htc);
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+#myController a span {
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: 5px 0 0 5px;
+    background: #222;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    behavior: url(PIE.htc);
+    opacity: 0.6;
+    text-indent: -9999px;
+}
+
+#myController a.selected {
+    background: #4b5454;
+}
+
+#myController a.selected span {
+    background: #d1dcde;
+}
+
+#myController a:hover,
+#myController a:hover span {
+    opacity: 1;
+}
+
+#banners .arows {
+    width: 29px;
+    height: 29px;
+    margin: -4px 0 0px 6px;
+    line-height: 29px;
+}
+
+#banners .arows span {
+    margin: 7px 0 0 10px;
+}
+
+#banners #list_banners {
+    overflow: hidden;
+}
+
+#banners .banner {
+    float: left;
+    width: 226px;
+    height: 228px;
+    margin: 0px 0 0px 0px;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    background: url(../images/bg_banner.png) no-repeat center center;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    behavior: url(PIE.htc);
+}
+
+#banners .banner a {
+    text-decoration: none;
+}
+
+#banners .banner .prev {
+    width: 226px;
+    height: 130px;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+#banners .banner .prev img {
+    max-width: 100%;
+}
+
+#banners .banner h2 {
+    font: normal 28px/28px Bitter, Arial, Verdana, serif;
+    margin: 0;
+    padding: 0;
+    color: #444;
+}
+
+#banners .banner p {
+    font: normal 20px Segoeui, Arial, Verdana, serif;
+    margin: 0;
+    padding: 0;
+    color: #777;
+}
+
+@media only screen and (max-width: 1007px) {
+    .slid_text {
+        top: 9.1%;
+        left: 50%;
+    }
+
+    .slidprev, .slidnext {
+        margin: -21px 0 0 0;
+        top: 50%;
+    }
+}
+
+@media only screen and (max-width: 747px) {
+    .specials li .prev {
+        display: block;
+        margin: 0 auto;
+        vertical-align: middle;
+    }
+
+    .specials li .cont {
+        display: block;
+    }
+
+    #banners .caroufredsel_wrapper {
+        margin: 0 auto !important;
+    }
+
+    #banners .banner {
+        width: 160px;
+        height: 175px;
+    }
+
+    #banners .banner .prev {
+        width: 160px;
+        height: 95px;
+        vertical-align: middle;
+        display: table-cell;
+    }
+}
+
+@media only screen and (max-width: 547px) {
+    .slid_text p {
+        display: none;
+    }
+
+    #checkout_progress ul li a {
+        overflow: hidden;
+        width: 0;
+    }
+}
+
+@media only screen and (max-width: 410px) {
+    #myController {
+        display: none;
+    }
+
+}
